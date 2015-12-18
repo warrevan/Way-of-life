@@ -24,5 +24,13 @@
      <a href="devs.php"><h6 style="display:inline;">Developers</h6></a>
      <a href="sinfo.php"><h6 style="display:inline;">Site Info</h6></a>
      <a href="translate.php"><h6 style="display:inline;">Translate</h6></a>
+<div style="font-size:12px; margin-top:.75%;">
+	 <?php
+	 $load = microtime();
+	 echo 'Page generated in ';
+	 print ( number_format($load,2));
+	 echo 's';
+	 ?>
+</div>
 </div>
 </body>

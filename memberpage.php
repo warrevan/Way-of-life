@@ -1,5 +1,4 @@
 <?php require('includes/config.php'); 
-
 //if not logged in redirect to login page
 if(!$user->is_logged_in()){ header('Location: index.php'); } 
 ?>
@@ -14,12 +13,11 @@ if(!$user->is_logged_in()){ header('Location: index.php'); }
 </div>
 <div class="main" style="background-color:#BDBDBD; margin:0 -.6% 0 -.6%; padding-bottom:10%;">
 <br>
-<div class="container">
+<div class="container" style="margin:3% 17% 1% 17%; padding:2.5%; background-color:white;">
 	<div class="row">
-	     <div class="col-xs-12 col-sm-8 col-md-6 col-sm-offset-2 col-md-offset-3">
-			<h2>Member only page - Welcome <?php echo $_SESSION['username']; ?></h2>
-			<p><a href='logout.php'>Logout</a></p>
+			<h2>My Account - Welcome <?php echo $_SESSION['username']; ?></h2>
 			<hr>
+			<p><a href='logout.php'>Logout</a></p>
 	     </div>
 	</div>
 </div>
@@ -30,5 +28,13 @@ if(!$user->is_logged_in()){ header('Location: index.php'); }
      <a href="devs.php"><h6 style="display:inline;">Developers</h6></a>
      <a href="sinfo.php"><h6 style="display:inline;">Site Info</h6></a>
      <a href="translate.php"><h6 style="display:inline;">Translate</h6></a>
+<div style="font-size:12px; margin-top:.75%;">
+	 <?php
+	 $load = microtime();
+	 echo 'Page generated in ';
+	 print ( number_format($load,2));
+	 echo 's';
+	 ?>
+</div>
 </div>
 </body>
