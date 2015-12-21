@@ -1,7 +1,7 @@
 <head>
 	<title>Developers</title>
 	<link type="text/css" rel="stylesheet" href="style/main.css" >
-        <link rel="shortcut icon" href="logo.png">
+	<link rel="shortcut icon" href="images/logo.png">
 </head>
 <body >
 <div class="top">
@@ -13,13 +13,13 @@
      <div class="justin">
           <img style="float:right;" src="">
           <h3>Justin Hazzard</h3>
-          <h4>Project Manager, Head of Design</h4>
+          <h4>Creator of concept and design</h4>
      </div>
      <hr>
      <div class="evan">
           <img style="float:right;" src="">
           <h3>Evan Warren</h3>
-          <h4>Head of Web Development</h4>
+          <h4>Head of Development</h4>
      </div>
 </div>
 </div>

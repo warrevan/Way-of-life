@@ -1,7 +1,7 @@
 <head>
 	<title>Help</title>
 	<link type="text/css" rel="stylesheet" href="style/main.css" >
-    <link rel="shortcut icon" href="logo.png">
+	<link rel="shortcut icon" href="images/logo.png">
     <?php
 	$starttime = explode(' ', microtime());
     $starttime = $starttime[1] + $starttime[0];

@@ -1,11 +1,10 @@
-<?php require('includes/config.php'); 
-//if not logged in redirect to login page
-if(!$user->is_logged_in()){ header('Location: index.php'); } 
+<?php
+require('includes/config.php'); 
 ?>
 <head>
 	<title>My Account</title>
 	<link type="text/css" rel="stylesheet" href="style/main.css" >
-        <link rel="shortcut icon" href="logo.png">
+	<link rel="shortcut icon" href="images/logo.png">
 </head>
 <body >
 <div class="top">
@@ -15,7 +14,7 @@ if(!$user->is_logged_in()){ header('Location: index.php'); }
 <br>
 <div class="container" style="margin:3% 17% 1% 17%; padding:2.5%; background-color:white;">
 	<div class="row">
-			<h2>My Account - Welcome <?php echo $_SESSION['username']; ?></h2>
+			<h2>My Account - Welcome, ___</h2>
 			<hr>
 			<p><a href='logout.php'>Logout</a></p>
 	     </div>

@@ -1,7 +1,7 @@
 <head>
 	<title>Site Info</title>
 	<link type="text/css" rel="stylesheet" href="style/main.css" >
-        <link rel="shortcut icon" href="logo.png">
+	<link rel="shortcut icon" href="images/logo.png">
 </head>
 <body >
 <div class="top">
